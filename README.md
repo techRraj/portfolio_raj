@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+    
+    <!-- CSS file -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
 <body>
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#">Portfolio.</a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -35,6 +33,7 @@
         </div>
     </nav>
 
+    <!-- अपका मौजूदा सेक्शन्स कोड यहाँ है -->
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
@@ -73,26 +72,23 @@
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
-                        <p>As a Designer, I strive to create intuitive and user-friendly interfaces that are aesthetically pleasing. I have experience in UI/UX design, ensuring that every project I work on is not only functional but also beautiful. Whether it’s a landing page or a full-fledged website, I aim to deliver a design that speaks to the brand and engages users.</p>
+                        <p>As a Designer, I strive to create intuitive and user-friendly interfaces that are aesthetically pleasing. I have experience in UI/UX design, ensuring that every project I work on is not only functional but also beautiful.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Advertising</div>
-                        <p>Custom, tailored solutions for your unique business.
-                            High-quality work that combines design and technology.
-                            Flexible pricing to suit your project scope.</p>
+                        <p>Custom, tailored solutions for your unique business. High-quality work that combines design and technology. Flexible pricing to suit your project scope.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Apps Design</div>
-                        <p>In conclusion, successful App Design combines functionality, usability, and aesthetics to create a seamless user experience. By focusing on user-centered design, ensuring simplicity and clarity, and maintaining consistency across the interface, designers can craft apps that are both intuitive and visually appealing. Prioritizing responsiveness, performance optimization, and accessibility .</p>
+                        <p>In conclusion, successful App Design combines functionality, usability, and aesthetics to create a seamless user experience. By focusing on user-centered design, ensuring simplicity and clarity.</p>
                     </div>
                 </div>
-               </div>
             </div>
         </div>
     </section>
@@ -104,7 +100,7 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Hi! I'm a passionate Web Developer, Designer, and Freelancer with a deep love for creating digital experiences. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <p>Hi! I'm a passionate Web Developer, Designer, and Freelancer with a deep love for creating digital experiences.</p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -252,9 +248,17 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="">Rajkumar</a> 
+        <span>Created By <a href="">Rajkumar</a></span>
     </footer>
 
+    <!-- All Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Your custom JavaScript -->
     <script src="script.js"></script>
+
 </body>
 </html>
